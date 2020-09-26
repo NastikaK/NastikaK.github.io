@@ -1,19 +1,35 @@
 .catalog a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(95, 25, 25);
     font-size: 19px;
     font-weight: 650;
 }
 
 strong > a {
+    display: block;
     font-style: italic;
     font-size: 18px;
-    color: rgb(87, 85, 85);
+    text-align: center;
+    color: rgb(150, 61, 61);
 }
 
 img[alt="catalog_photo"] {
-    box-shadow: 0 0 3px 3px rgb(145, 122, 122);
+    box-shadow: 0 0 5px 3px rgb(143, 79, 79);
+    max-width: 100%;
+    max-height: 90%;
 }
 
 img[alt="catalog_photo"]:hover {
-    outline: 3px solid rgb(143, 115, 115);
+    outline: 3px solid rgb(143, 88, 88);
 }
+
+.items_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 25%;
+    height: 25%;
+}
+
+

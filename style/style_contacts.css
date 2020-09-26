@@ -1,15 +1,15 @@
 .feedback form {
-    margin: 0 0 0 5px;
+    margin: 0 auto;
 }
 
 .contacts {
-    background-color: rgb(130, 218, 253);
+    background-color: rgb(179, 151, 116);
     width: 40%; 
     min-width: 400px;
     text-align: center;
     border-radius: 5px;
     padding: 5px;
-    box-shadow: 0 0 10px 8px rgb(130, 218, 253);
+    box-shadow: 0 0 10px 8px rgb(179, 151, 116);
 }
 
 input[type="text"] {
@@ -66,11 +66,11 @@ textarea[name="Text1"] {
     font-size: 20px;
     list-style-type: square;
     margin-bottom: 7px;
-    color: gray;
+    color: rgb(158, 102, 102);
 }
 
 .adress li a {
-    color: gray;
+    color: rgb(124, 79, 79);
 }
 
 .connection {
@@ -78,8 +78,10 @@ textarea[name="Text1"] {
 }
 
 h2 {
+    color: rgb(136, 49, 49);
     margin-top: 40px;
     margin-bottom: auto;
+    margin-left: 15px;
 }
 
 .maps {

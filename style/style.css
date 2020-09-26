@@ -18,7 +18,8 @@ html, body {
 
 h1, .hello {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(123, 35, 35);
+    text-align: center;
 }
 
 #hello {
@@ -135,3 +136,4 @@ img[alt="image"] {
     border-radius: 7px;
     box-shadow: 0 0 7px 6px rgb(134, 95, 95);
 }
+
