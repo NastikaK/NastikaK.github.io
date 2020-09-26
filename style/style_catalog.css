@@ -1,0 +1,19 @@
+.catalog a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 650;
+}
+
+strong > a {
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(87, 85, 85);
+}
+
+img[alt="catalog_photo"] {
+    box-shadow: 0 0 3px 3px rgb(145, 122, 122);
+}
+
+img[alt="catalog_photo"]:hover {
+    outline: 3px solid rgb(143, 115, 115);
+}

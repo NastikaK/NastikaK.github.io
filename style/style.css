@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f8f8;
+
+}
+
+body {
+    margin: auto;
+}
+
+h1, .hello {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#hello {
+    font-style: italic;
+    font-size: 17px;
+    color: black;
+}
+
+.header {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: auto;
+}
+
+.header a, ul {
+    float: left;
+}
+.header hr {
+    clear: both;
+}
+
+.menu li {
+    font-style: oblique;
+    font-size: 17px;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #666565;
+}
+
+
+.menu li a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 650;
+}
+
+.content {
+    padding: 0 8px 0 8px;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+    
+
+.copy {
+    font-style: normal;
+    color: black;
+    font-size: 12px;
+}
+
+img[alt="image"] {
+    border-radius: 7px;
+    box-shadow: 0 0 7px 6px rgb(134, 95, 95);
+}
+
