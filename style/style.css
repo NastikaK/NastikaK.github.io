@@ -1,10 +1,14 @@
 body {
     background-color: #f8f8f8;
-
+    margin: auto;
 }
 
-body {
-    margin: auto;
+.container {
+    width: 80%;
+    min-width: 700px;
+    margin: 0 auto;
+    background-image: url(../img/background1.jpg);
+    background-repeat: repeat;
 }
 
 h1, .hello {
@@ -19,33 +23,81 @@ h1, .hello {
 }
 
 .header {
-    background-color: rgb(240, 240, 240);
-    width: 100%;
-    height: auto;
+    height: 140px;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
-.header a, ul {
-    float: left;
+img[alt="logo"] {
+    padding-left: 50px;
+    position: relative;
+    top: 10px;
 }
-.header hr {
-    clear: both;
+
+.menu {
+    position: absolute;
+    right: 75px;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1px 0;
+    height: 25px;
 }
 
 .menu li {
     font-style: oblique;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 650;
     list-style-type: none;
+    width: 75px;
+    margin-right: 40px;
 }
 
 .menu li a {
-    color: #666565;
+    color: #440b0b;
+
 }
 
-
-.menu li a:hover {
+.menu_item:hover {
     color: rgb(0, 0, 0);
-    font-size: 18px;
-    font-weight: 650;
+    font-size: 22px;
+    font-weight: 1000;
+}
+
+.menu li ul {
+    display: none;
+    padding-left: 5px;
+}
+
+.submenu a {
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.menu li:hover ul {
+    display: block
+}
+
+.submenu {
+    background-color: rgba(182, 124, 124, 0.65);
+    width: 100px;
+    box-shadow: 5px 5px 9px 3px rgb(167, 107, 107);
+    border-bottom: 1px solid rgb(109, 82, 82);
+    border-right: 1px solid rgb(109, 82, 82);
+    margin-left: -7px;
+}
+
+.submenu hr {
+    margin-left: -5px;
+    width: 100px;
+}
+
+.submenu li a:hover {
+    color: black;
+    font-size: 16px;
 }
 
 .content {
@@ -59,11 +111,15 @@ h1, .hello {
     background-color: #eaeaea;
 }
     
+.footer {
+    text-align: right;
+}
 
 .copy {
     font-style: normal;
     color: black;
     font-size: 12px;
+    padding-right: 20px;
 }
 
 img[alt="image"] {

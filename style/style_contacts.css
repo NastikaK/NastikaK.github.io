@@ -74,11 +74,15 @@ textarea[name="Text1"] {
 }
 
 .connection {
-    height: 200px;
-    margin-bottom: auto;
+    width: 100%;
 }
 
 h2 {
     margin-top: 40px;
     margin-bottom: auto;
+}
+
+.maps {
+    width: 100%;
+    margin-top: 10px;
 }
