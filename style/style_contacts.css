@@ -66,11 +66,11 @@ textarea[name="Text1"] {
     font-size: 20px;
     list-style-type: square;
     margin-bottom: 7px;
-    color: rgb(158, 102, 102);
+    color: rgb(94, 23, 23);
 }
 
 .adress li a {
-    color: rgb(124, 79, 79);
+    color: rgb(75, 17, 17);
 }
 
 .connection {
@@ -78,7 +78,7 @@ textarea[name="Text1"] {
 }
 
 h2 {
-    color: rgb(136, 49, 49);
+    color: rgb(109, 28, 28);
     margin-top: 40px;
     margin-bottom: auto;
     margin-left: 15px;
