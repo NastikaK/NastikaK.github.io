@@ -119,7 +119,7 @@ img[alt="logo"] {
     background-color: rgb(247, 233, 215);
 }
     
-.footer {
+footer {
     background-image: url(../img/header.jpg);
     background-position: center;
     text-align: right;
