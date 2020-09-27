@@ -64,7 +64,7 @@ img[alt="logo"] {
 
 .menu li a {
     color: #2e0000;
-
+    text-shadow: 1px 1px 2px rgb(121, 42, 42), 0 0 1em rgb(237, 198, 198), 0 0 0.2em rgb(211, 131, 131);
 }
 
 .menu_item:hover {
